@@ -1,0 +1,161 @@
+body {
+    background-color: hsla(0, 0%, 0%, 0.911);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Default font color na todo */
+body, p, h1, h3, h4, h5, h6, ul, ol, li, a {
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: #000000f1;
+    color: #fff;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Navbar/Logo Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* ALIGNMENT */
+}
+
+.navitem {
+    margin: 0 10px;
+}
+
+.navitem a {
+    color: white;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    text-decoration: underline;
+}
+
+/* Logo Styles */
+.container2 {
+    display: inline-block;
+}
+
+.image img {
+    width: 300px;
+    height: 70px;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Login form */
+.form {
+    padding: 1%;
+    border: 1px solid #e01515;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); /* Adjust the color and blur radius as desired */
+    transition: box-shadow 0.3s ease;
+}
+
+.form:hover {
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.7); /* Adjust the color and blur radius as desired */
+}
+
+/* .login */
+.login {
+    text-align: center;
+    font-size: 15px;
+}
+
+.login label {
+    margin-right: 70%;
+}
+
+.login h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.login button:hover {
+    background-color: #e01515;
+}
+
+/* List Styles */
+ol {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    margin-top: 0.2in;
+}
+
+.footer-box {
+    padding: 10px; /* Add some padding for spacing */
+    text-align: center; /* Center-align the links */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
